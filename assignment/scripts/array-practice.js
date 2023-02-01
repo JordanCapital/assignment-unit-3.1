@@ -112,3 +112,5 @@ console.log('Converted array to string',foodArray);
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+let foodAnimal = animalArray.concat(foodArray);
+console.log('Concat  animalArray and foodArray', foodAnimal);
