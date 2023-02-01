@@ -93,10 +93,14 @@ console.log('The food now is',foodArray);
 //      with another one of your favorite foods.
 //      Then log the updated array.
 foodArray[1] = 'eggs';
-console.log(foodArray);
+console.log('Replace the second food', foodArray);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
+foodArray = ['cake', 'eggs', 'chicken'];
+foodArray.sort(function(a, b) {return b.localeCompare (a)});
+console.log(foodArray);
+
 
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
